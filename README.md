@@ -34,7 +34,7 @@ The project uses [SemVer](http://semver.org/) for versioning. For the versions a
 
 ## Authors
 
-* **Arnau Pujol* - [GitHub](https://github.com/arnau-pujol) [Twitter](https://twitter.com/arnau_pujol) [Website](http://arnaupujol.net)
+* *Arnau Pujol* - [GitHub](https://github.com/arnau-pujol) - [Twitter](https://twitter.com/arnau_pujol) - [Website](http://arnaupujol.net)
 
 ## License
 
