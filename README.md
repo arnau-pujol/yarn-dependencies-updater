@@ -1,5 +1,7 @@
 # YARN DEPENDENCIES UPDATER
 
+[![npm version](https://badge.fury.io/js/yarn-dependencies-updater.svg)](https://badge.fury.io/js/yarn-dependencies-updater)
+
 An utility to detect if `yarn.lock` has changed and update the dependencies automatically using a `post-merge` hook.
 
 ## Getting Started
