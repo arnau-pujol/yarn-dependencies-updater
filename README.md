@@ -21,8 +21,7 @@ and just pull your changes!
 
 ## Built With
 
-* [shelljs](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [husky](https://maven.apache.org/) - Dependency Management
+* [shelljs](https://github.com/shelljs/shelljs)
 
 ## Contributing
 
