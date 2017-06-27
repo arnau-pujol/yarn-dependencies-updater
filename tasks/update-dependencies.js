@@ -7,7 +7,7 @@ if (!shell.which('git')) {
 }
 
 // Get the files that have been modified or null as a fallback
-var changedFiles = shell.exec('git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD').grep('yarn.lock').stdout || null;
+var changedFiles = shell.exec('git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD').grep('yarn.lock').stdout.trim() || null;
 
 // Execute the scripts if needed
 if(changedFiles !== null) {
