@@ -1,7 +1,7 @@
 {
   "name": "yarn-dependencies-updater",
   "description": "An utility to detect if yarn.lock has changed and update the dependencies automatically using a post-merge hook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Arnau Pujol <hi@arnaupujol.com> (http:⁄/www.arnaupujol.com)",
   "license": "MIT",
   "repository": {
