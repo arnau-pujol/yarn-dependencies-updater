@@ -14,9 +14,9 @@ if(changedFiles !== null) {
   shell.rm('-rf', 'node_modules');
   shell.exec('yarn cache clean');
   shell.exec('yarn');
-  shell.echo('\n---------------------------------------\n  The dependencies have been updated  \n---------------------------------------\n');
+  shell.echo('\n----------------------------------------------\n  The dependencies have been updated  \n----------------------------------------------\n');
 }
 else {
-  shell.echo('\n-------------------------------\n  No dependencies have been modified  \n-------------------------------\n');
+  shell.echo('\n--------------------------------------\n  No dependencies have been modified  \n--------------------------------------\n');
 }
 shell.exit(0);
