@@ -1,7 +1,7 @@
 {
   "name": "yarn-dependencies-updater",
   "description": "An utility to detect if yarn.lock has changed and update the dependencies automatically using a post-merge hook",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "author": "Arnau Pujol <hi@arnaupujol.com> (http:⁄/www.arnaupujol.com)",
   "license": "MIT",
   "repository": {
@@ -13,7 +13,9 @@
     "email": "hola@arnaupujol.net"
   },
   "scripts": {
-    "postmerge": "node ./tasks/update-dependencies.js"
+    "postrewrite": "yarn check-updates",
+    "postmerge": "yarn check-updates",
+    "check-updates": "node ./tasks/update-dependencies.js"
   },
   "dependencies": {
     "shelljs": "^0.7.8"
